@@ -1,30 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Booba - Musique et Vidéos</title>
 </head>
 <body>
-    <h1>Video et Audio de BOOBA</h1><br>
-    <div class="container">
-    <h2>Booba DkR Mp4 </h2>
-        <div class="video">
-            <video controls>
-                <source src="Booba - DKR (Clip officiel).mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+    <header>
+        <div class="header-content">
+            <h1>BOOBA</h1>
+            <p class="subtitle">Musique & Vidéos</p>
         </div>
-        <div class="audio">
-            <h2>Booba DkR Mp3 </h2>
-            <audio controls>
-                <source src="Booba - D.K.R [Y5ovKVRVAEc].mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
-    </div>
+    </header>
 
+    <main class="container">
+        <section class="media-section">
+            <div class="media-item video-item">
+                <h2>D.K.R - Clip Officiel</h2>
+                <div class="video-wrapper">
+                    <video controls>
+                        <source src="Booba - DKR (Clip officiel).mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la vidéo.
+                    </video>
+                </div>
+            </div>
 
+            <div class="media-item audio-item">
+                <h2>D.K.R - Audio</h2>
+                <div class="audio-wrapper">
+                    <audio controls>
+                        <source src="Booba - D.K.R [Y5ovKVRVAEc].mp3" type="audio/mpeg">
+                        Votre navigateur ne supporte pas l'audio.
+                    </audio>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Booba Musique. Tous droits réservés. fait par [Youssouf]</p>
+    </footer>
 </body>
 </html>
